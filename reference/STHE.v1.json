@@ -20,7 +20,27 @@
       "post": {
         "summary": "z",
         "tags": [],
-        "responses": {},
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "description": "",
+                  "type": "object",
+                  "properties": {
+                    "Z": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "Z"
+                  ]
+                }
+              }
+            }
+          }
+        },
         "operationId": "post-z",
         "description": "Температурная поправка Z",
         "requestBody": {
