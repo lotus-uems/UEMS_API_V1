@@ -12,7 +12,7 @@
   },
   "servers": [
     {
-      "url": "https://uems.lotus1.ru/sthe/api/v1.0/"
+      "url": "https://uems.lotus1.ru/sthe/api/v1.0"
     }
   ],
   "paths": {
@@ -219,6 +219,14 @@
           "description": "Post the necessary fields for the API to create a new user."
         },
         "description": "Create a new user."
+      }
+    },
+    "/z": {
+      "post": {
+        "summary": "z",
+        "tags": [],
+        "responses": {},
+        "operationId": "post-z"
       }
     }
   },
