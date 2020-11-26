@@ -226,7 +226,8 @@
         "summary": "z",
         "tags": [],
         "responses": {},
-        "operationId": "post-z"
+        "operationId": "post-z",
+        "description": "Температурная поправка Z"
       }
     }
   },
